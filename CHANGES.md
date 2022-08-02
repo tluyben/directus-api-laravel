@@ -1,3 +1,8 @@
+1.1 // 2022-08-02
+==================
+  * Added PHP 8.1 support
+  * Added Trait to expand models
+
 1.0.3 / 2020-10-22
 ==================
 

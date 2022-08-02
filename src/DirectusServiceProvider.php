@@ -1,6 +1,6 @@
 <?php
 
-namespace C14r\Directus\Laravel;
+namespace WebKenth\Directus;
 
 use Illuminate\Support\ServiceProvider;
 

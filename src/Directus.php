@@ -1,6 +1,6 @@
 <?php
 
-namespace C14r\Directus\Laravel;
+namespace WebKenth\Directus;
 
 use C14r\Directus\API;
 use Illuminate\Support\Arr;

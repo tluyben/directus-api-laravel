@@ -1,6 +1,6 @@
 <?php
 
-use C14r\Directus\Laravel\Directus;
+use WebKenth\Directus\Directus;
 
 if (! function_exists('directus')) {
     function directus(?string $connection = null)

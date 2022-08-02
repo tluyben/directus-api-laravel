@@ -1,6 +1,6 @@
 {
-    "name": "c14r/directus-api-laravel",
-    "description": "Directus API Wrapper for Laravel 8",
+    "name": "webkenth/directus-api-laravel",
+    "description": "Directus API Wrapper for Laravel 9, credit to C14r/directus-api-laravel",
     "type": "library",
     "license": "GPL-3.0-only",
     "authors": [
@@ -8,15 +8,20 @@
             "name": "Christian Pfeifer",
             "email": "mail@christian-pfeifer.de",
             "homepage": "http://www.christian-pfeifer.de/"
+        },
+        {
+            "name": "Martin Knudsen",
+            "email": "mkk@webkenth.dk",
+            "homepage": "https://webkenth.dk"
         }
     ],
     "require": {
-        "php": "^7.3",
-        "c14r/directus-api": "^1.0.5"
+        "php": "^7.3|^7.4|^8.0|^8.1",
+        "c14r/directus-api": "^1.1"
     },
     "autoload": {
         "psr-4": {
-            "C14r\\Directus\\Laravel\\": "src/"
+            "WebKenth\\Directus\\": "src/"
         },
         "files": [
             "src/helpers.php"
