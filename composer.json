@@ -17,11 +17,11 @@
     ],
     "require": {
         "php": "^7.3|^7.4|^8.0|^8.1",
-        "webkenth/directus-api": "^1.2"
+        "tluyben/directus-api": "^1.2"
     },
     "autoload": {
         "psr-4": {
-            "WebKenth\\Directus\\": "src/"
+            "tluyben\\Directus\\": "src/"
         },
         "files": [
             "src/helpers.php"
